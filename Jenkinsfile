@@ -8,11 +8,6 @@ pipeline {
             }
         }
  
-        stage('Build App') {
-            steps {
-                sh 'npm run build'
-            }
-        }
  
         stage('Run Tests') {
             steps {
